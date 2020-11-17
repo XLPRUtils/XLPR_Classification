@@ -217,11 +217,11 @@ See [TEST](https://github.com/Tramac/Awesome-semantic-segmentation-pytorch/tree/
 
 [python-image]: https://img.shields.io/badge/Python-3.7.7-ff69b4.svg
 [python-url]: https://www.python.org/
-[pytorch-image]: https://img.shields.io/badge/PyTorch-1.5-2BAF2B.svg
+[pytorch-image]: https://img.shields.io/badge/PyTorch-1.6-2BAF2B.svg
 [pytorch-url]: https://pytorch.org/
 [cuda-image]: https://img.shields.io/badge/CUDA-10.2-blue.svg
 [cuda-url]: https://developer.nvidia.com/
 [torchvision-image]: https://img.shields.io/badge/torchvision-0.6-green.svg
 [torchvision-url]: https://pytorch.org/docs/stable/torchvision/index.html/
-[tensorflow-image]: https://img.shields.io/badge/tensorflow-0.6-green.svg
+[tensorflow-image]: https://img.shields.io/badge/tensorflow-2.1-yellow.svg
 [tensorflow-url]: https://tensorflow.google.cn/
