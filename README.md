@@ -9,8 +9,6 @@
 **Atari has topped itself with SwordQuest!**  
 在这个教程中中将演示通过该分类框架实现简易的手势识别。方便大家了解深度学习以及计算机视觉。
 
-<p align="center"><img width="100%" src="docs/weimar_000091_000019_gtFine_color.png" /></p>
-
 ## 安装
 ```
 # 在开始安装前，请确认操作系统为Ubuntu，且已经安装Anaconda
@@ -23,7 +21,7 @@ source activate classify
 
 # 安装相关依赖环境（Pytorch、TF2.0、CUDA等）
 安装教程请参考团队环境
-[安装笔记](https://www.yuque.com/docs/share/abb954bf-bdbc-4cc8-98e1-7f5ef2de081d?# 《ImageClassification（basis）》)
+[文本](地址)
 # 环境依赖：Pytorch>=1.6,TensorFlow>=2.0, CUDA(兼容), prettytable, sklearn, albumentations, cv2, matplotlib
 
 # 如果报错，请调整上述环境依赖包的版本或联系神奇海螺
