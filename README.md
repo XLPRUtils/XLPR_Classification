@@ -73,11 +73,11 @@ mean_std.py: 计算数据集均值与方差，进行z-score 标准化 *python me
 
 [python-image]: https://img.shields.io/badge/Python-3.7.7-blue.svg
 [python-url]: https://www.python.org/
-[pytorch-image]: https://img.shields.io/badge/PyTorch-1.6-#ff4422.svg
+[pytorch-image]: https://img.shields.io/badge/PyTorch-1.6-red.svg
 [pytorch-url]: https://pytorch.org/
-[cuda-image]: https://img.shields.io/badge/CUDA-10.2-blue.svg
+[cuda-image]: https://img.shields.io/badge/CUDA-10.2-green.svg
 [cuda-url]: https://developer.nvidia.com/
-[torchvision-image]: https://img.shields.io/badge/torchvision-0.6-#ff745a.svg
+[torchvision-image]: https://img.shields.io/badge/torchvision-0.6-orange.svg
 [torchvision-url]: https://pytorch.org/docs/stable/torchvision/index.html/
 [tensorflow-image]: https://img.shields.io/badge/tensorflow-2.1-yellow.svg
 [tensorflow-url]: https://tensorflow.google.cn/
