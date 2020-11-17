@@ -20,12 +20,12 @@ conda create -n classify python=3.7
 source activate classify
 
 # 安装相关依赖环境（Pytorch、TF2.0、CUDA等）
-安装教程请参考[环境安装比较](https://www.yuque.com/xlpr/pyxllib/install-pytorch)	
 
 # 环境依赖：Pytorch>=1.6,TensorFlow>=2.0, CUDA(兼容), prettytable, sklearn, albumentations, cv2, matplotlib
 
 # 如果报错，请调整上述环境依赖包的版本或联系神奇海螺
 ```
+## 安装教程请参考[环境安装](https://www.yuque.com/xlpr/pyxllib/install-pytorch)	
 
 ## 使用
 -----------------
@@ -35,8 +35,8 @@ source activate classify
 train.py：进行模型的训练  *CUDA_VISIBLE_DEVICES=0 python train.py*
 inference.py： 进行模型的预测与评估 *CUDA_VISIBLE_DEVICES=0 python inference.py*
 mean_std.py: 计算数据集均值与方差，进行z-score 标准化 *python mean_std.py* 
-详细的代码解释与可参考[框架教程](https://www.yuque.com/xlpr/code/hrvtof)
 ```
+## 详细的代码解释与可参考[框架教程](https://www.yuque.com/xlpr/code/hrvtof)
 
 - **重要文件夹概述**  
 ```
