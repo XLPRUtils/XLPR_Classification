@@ -1,4 +1,4 @@
-# Swordquest：Semantic segmentation integration framework by pytorch
+# XLPR_Classification：XLPR Classification Framework - Basic Edition
 [![python-image]][python-url]
 [![pytorch-image]][pytorch-url]
 [![cuda-image]][cuda-url]
