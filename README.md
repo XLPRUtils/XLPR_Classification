@@ -223,4 +223,5 @@ See [TEST](https://github.com/Tramac/Awesome-semantic-segmentation-pytorch/tree/
 [cuda-url]: https://developer.nvidia.com/
 [torchvision-image]: https://img.shields.io/badge/torchvision-0.6-green.svg
 [torchvision-url]: https://pytorch.org/docs/stable/torchvision/index.html/
-[tensorflow-image]: https://tensorflow.google.cn/
+[tensorflow-image]: https://img.shields.io/badge/tensorflow-0.6-green.svg
+[tensorflow-url]: https://tensorflow.google.cn/
