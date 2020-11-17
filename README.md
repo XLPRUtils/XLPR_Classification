@@ -22,7 +22,7 @@ conda create -n classify python=3.7
 source activate classify
 
 # 安装相关依赖环境（Pytorch、TF2.0、CUDA等）
-安装教程请参考团队环境[安装笔记]("https://www.yuque.com/docs/share/41faffd5-271f-4853-9832-450a4f296f06?# 《配置PyTorch深度学习环境》")
+安装教程请参考团队环境[安装笔记][https://www.yuque.com/docs/share/41faffd5-271f-4853-9832-450a4f296f06?# 《配置PyTorch深度学习环境》]
 # 环境依赖：Pytorch>=1.6,TensorFlow>=2.0, CUDA(兼容), prettytable, sklearn, albumentations, cv2, matplotlib
 
 # 如果报错，请调整上述环境依赖包的版本或联系神奇海螺
