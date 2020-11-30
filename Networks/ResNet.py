@@ -203,6 +203,7 @@ class ResNet(nn.Module):
 
     def _forward_impl(self, x):
         # See note [TorchScript super()]
+
         x = self.conv1(x)
         x = self.bn1(x)
         x = self.relu(x)
@@ -211,7 +212,7 @@ class ResNet(nn.Module):
         x = self.layer1(x)
         x = self.layer2(x)
         x = self.layer3(x)
-        x = self.layer4(x)
+        x = self.layer4(x)  
 
         x = self.avgpool(x)
         x = torch.flatten(x, 1)
@@ -385,7 +386,7 @@ class ResNet101(nn.Module):
 
 os.environ["CUDA_VISIBLE_DEVICES"] = "0"
 if __name__ == '__main__':
-    model = ResNet50(num_classes=6)
+    model = ResNet34(num_classes=6)
     use_gpu = torch.cuda.is_available()
 
     if torch.cuda.device_count() > 1:
@@ -394,7 +395,7 @@ if __name__ == '__main__':
 
     if torch.cuda.is_available():
         model.cuda()
-    test_data = torch.randn(10,3,64,64).cuda()
+    test_data = torch.randn(1,3,64,64).cuda()
     # print(model)
     test_out = model(test_data)
     print(test_data.size(), test_out.size())

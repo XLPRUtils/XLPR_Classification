@@ -275,7 +275,6 @@ class ResNet(nn.Module):
         x = self.ca1(x) * x
         x = self.sa1(x) * x
 
-
         x = self.avgpool(x)
         x = x.reshape(x.size(0), -1)
         x = self.fc(x)
@@ -412,10 +411,10 @@ class ResNet101_CBAM(nn.Module):
         output = self.fc1(feat)
         return output
 import os
-os.environ["CUDA_VISIBLE_DEVICES"] = "3"
+os.environ["CUDA_VISIBLE_DEVICES"] = "1"
 
 if __name__ == '__main__':
-    model = ResNet50_CABM(num_classes=3)
+    model = ResNet50_CBAM(num_classes=3)
     use_gpu = torch.cuda.is_available()
 
     if torch.cuda.device_count() > 1:
@@ -424,7 +423,10 @@ if __name__ == '__main__':
 
     if torch.cuda.is_available():
         model.cuda()
-    print(model)
-    test_data = torch.randn(5,3,512,768).cuda()
+
+    print(model.layer4)
+    # model..retain_grad()
+
+    test_data = torch.randn(5,3,64,64).cuda()
     test_out = model(test_data)
     print(test_data.size(), test_out.size())

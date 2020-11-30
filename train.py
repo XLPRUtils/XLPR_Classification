@@ -59,7 +59,7 @@ parser.add_argument('--apex', default=True, help='Turn on the mixed accuracy tra
 
 # 显示相关，使用nohup挂后台运行时请关闭tqdm
 parser.add_argument('--tqdm_off', action='store_true', default=False, help='Whether turn of the progress bar.Default False')
-parser.add_argument('--details', default=True, help='Detailed category identification scores')
+parser.add_argument('--details', default=False, help='Detailed category identification scores')
 parser.add_argument('--tensorboardX', default=False, help='Open tensorboardX for visualization of model, Loss and Accuracy')
 
 
