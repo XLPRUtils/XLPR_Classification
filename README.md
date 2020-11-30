@@ -26,7 +26,7 @@ source activate classify
 # 如果报错，请调整上述环境依赖包的版本或联系神奇海螺
 ```
 ### 环境安装教程请参考[环境安装](https://www.yuque.com/xlpr/pyxllib/install-pytorch)	
-### 框架使用教程请参考[框架教程](https://www.yuque.com/xlpr/code/hrvtof)
+### 框架使用教程请参考[框架教程](https://www.yuque.com/xlpr/code/hrvtof) （内附数据集下载）
 
 ## 使用
 -----------------
